@@ -19,6 +19,9 @@ body{
     border-radius: 8px;
     overflow: hidden;
 }
+.links{
+    margin: 0;
+}
 .box::before{
     content: "";
     position: absolute;
@@ -125,7 +128,7 @@ body{
     pointer-events: none;
     font-size: 1em;
     letter-spacing: 0.05em;
-    transition: o.5s;
+    transition: 0.5s;
 }
 .box form .input-box input:valid ~ span,
 .box form .input-box input:focus ~ span
@@ -153,7 +156,7 @@ body{
 }
 .box form .links{
     display: flex;
-    justify-content: space-between;
+    gap: 165px;
 }
 .box form .links a{
     margin: 10px 0;
